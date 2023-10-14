@@ -1,0 +1,204 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0;
+  margin:0;
+  font-family:"arial";
+}
+.main-form{
+  flex:1;
+  background-color:#eee;
+  min-height:100vh;
+}
+.main-form .main-table{
+  width:100%;
+  font-size:20px;
+}
+.main-form .main-table th{
+  background-color: #ddd;
+  color: #333;
+  border: 2px solid #333;
+  padding: 5px;
+  font-weight: bold;
+  text-align:center;
+}
+.main-form .main-table td{
+  text-align: center;
+  color: #333;
+  background-color: #77bcfc;
+  font-weight: bold;
+  border: 2px solid #333;
+  padding: 5px 5px;
+}
+.main-asid{
+  flex-basis: 30%;
+  background-color:#ddd;
+  min-height:100vh;
+  box-shadow:0 2px 15px rgb(0 0 0 / 45%)
+}
+.main-asid img{
+  width: 150px;
+  display: block;
+  margin: 90px auto 50px;
+  border-radius: 16%;
+  border: 2px solid #eee;
+}
+.main-asid form{
+  display:block;
+}
+.main-asid form input{
+  display: block;
+  margin: auto;
+  width: 70%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: #eee;
+  border-bottom: 1px solid #aaa;
+  border-radius: 5px;
+  text-align:center;
+  color:#333;
+  caret-color: #333;
+  padding: 6px;
+  box-shadow:0 1px 5px rgb(0 0 0 / 30%);
+}
+.main-asid form button{
+  padding: 10px 50px;
+  width: 175px;
+  margin: 15px auto;
+  border-radius: 10px;
+  color: #eee;
+  margin: 10px auto;
+  display: block;
+  border: none;
+}
+.main-asid form button.add{
+  background-color:rgb(0 126 255);
+}
+.main-asid form button.remove{
+  background-color:crimson;
+}
+.main-asid form button.s{
+  background-color:rgb(2, 172, 72);
+}
+h3.label{
+  color: #333;
+  margin: 30px 0 5px 48px;
+}
+p.error-log{
+  color:red;
+  font-size:15px;
+  padding:5px;
+  margin-top:auto;
+}
+
+/* Start Sign Up Page*/
+.signup-form{
+  width: 500px;
+  background-color: #ddd;
+  border-radius: 25px;
+  border: 3px solid white;
+  outline: 3px solid #ddd;
+  margin: 50px auto;
+  color: #333;
+  font-size: 20px;
+}
+.signup-form img{
+  width: 140px;
+  height: 140px;
+  margin: 60px auto 20px;
+  display: block;
+  border-radius: 50%;
+  border: 3px solid #0088ff;
+}
+.signup-form form{
+  padding: 20px;
+}
+.signup-form form h3{
+  font-weight: normal;
+  margin: 20px 0px 3px 50px;
+  color:#0088ff;
+}
+.signup-form form input{
+  background-color: white;
+  border: 3px solid transparent;
+  outline: none;
+  width: 70%;
+  margin: 0 0 0 66px;
+  display: block;
+  font-size: 20px;
+  color: #0088ff;
+  caret-color: #0088ff;
+  text-align: center;
+  border-radius: 6px;
+}
+.signup-form form input:focus{
+  border-color:#0088ff;
+}
+.signup-form form .signup-btn{
+  background-color: #0088ff;
+  color: white;
+  width: fit-content;
+  padding: 5px 15px;
+  margin: 20px auto;
+}
+/* End Sign Up */
+/* Start Login Page */
+.loginform {
+  width: 500px;
+  background-color: #ddd;
+  border-radius: 25px;
+  border: 3px solid white;
+  outline: 3px solid #ddd;
+  margin: 50px auto;
+  color: #333;
+  font-size: 20px;
+}
+.loginform img{
+  width: 140px;
+  height: 140px;
+  margin: 60px auto 20px;
+  display: block;
+  border-radius: 50%;
+  border: 3px solid #0088ff;
+}
+.loginform form{
+  padding: 20px;
+}
+.loginform form h3{
+  font-weight: normal;
+  margin: 20px 0px 3px 50px;
+  color:#0088ff;
+}
+.loginform form input{
+  background-color: white;
+  border: 3px solid transparent;
+  outline: none;
+  width: 70%;
+  margin: 0 0 0 66px;
+  display: block;
+  font-size: 20px;
+  color: #0088ff;
+  caret-color: #0088ff;
+  text-align: center;
+  border-radius: 6px;
+}
+.loginform form input:focus{
+  border-color:#0088ff;
+}
+.loginform form input[type="submit"]{
+  color: white;
+  width: fit-content;
+  padding: 5px 15px;
+  margin: 20px auto;
+  color: white;
+}
+.loginform form .signin{
+  background-color: #0088ff;
+
+}
+.loginform form .signup{
+  background-color: rgb(0, 153, 94);
+}
+/* End Login Page */

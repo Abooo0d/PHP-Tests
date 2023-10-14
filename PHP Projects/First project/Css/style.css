@@ -1,0 +1,65 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:0;
+  margin:0;
+  font-family:"arial";
+}
+.main-form{
+
+}
+.main-asid{
+  flex-basis: 30%;
+  background-color:#ddd;
+  min-height:100vh;
+  box-shadow:0 2px 15px rgb(0 0 0 / 45%)
+}
+.main-asid img{
+  width: 150px;
+  display: block;
+  margin: 90px auto 50px;
+  border-radius: 16%;
+  border: 2px solid #eee;
+}
+.main-asid form{
+  display:block;
+}
+.main-asid form input{
+  display: block;
+  margin: auto;
+  width: 70%;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: #eee;
+  border-bottom: 1px solid #aaa;
+  border-radius: 5px;
+  text-align:center;
+  color:#333;
+  caret-color: #333;
+  padding: 6px;
+  box-shadow:0 1px 5px rgb(0 0 0 / 30%);
+}
+.main-asid form input:not([type="submit"]):focus{
+  color:rgb(230, 37, 156);
+  border-color:rgb(230, 37, 156);
+}
+.main-asid form input[type="submit"]{
+  padding: 10px 50px;
+  width: 175px;
+  margin: 15px auto;
+  border-radius: 10px;
+  color:#eee;
+}
+.main-asid form input[type="submit"].add{
+  background-color:rgb(0 126 255);
+}
+.main-asid form input[type="submit"].remove{
+  background-color:crimson;
+}
+h3.label{
+  color: #333;
+  margin: 30px 0 20px 48px;
+}
+
